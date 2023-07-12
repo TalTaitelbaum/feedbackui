@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 
+// Caught (text,bgCopor and textColor) in the header
 function Header({ text, bgColor, textColor }) {
   const headerStyle = {
     backgroundColor: bgColor,
@@ -21,6 +22,7 @@ Header.defaultProps = {
   textColor: "#ff6a95",
 };
 
+//defined propTypes
 Header.propTypes = {
   text: PropTypes.string,
   bgColor: PropTypes.string,
